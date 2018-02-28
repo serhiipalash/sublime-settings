@@ -1,0 +1,20 @@
+{
+    "search_colors_in": {
+        "selection": {
+            "enabled": false,
+        },
+        "all_content": {
+            "enabled": true,
+            "color_highlighters": {
+                "color_scheme": {
+                    "enabled": true,
+                    "highlight_style": "filled"
+                },
+            }
+        },
+        "hover": {
+            "enabled": false,
+        }
+    },
+    "file_extensions": [".css", ".js", ".json", ".tmTheme", ".less", ".scss", ".sass", ".styl"],
+}
