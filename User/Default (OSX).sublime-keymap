@@ -1,0 +1,138 @@
+[
+  {
+    "keys": ["alt+\\"],
+    "command": "toggle_side_bar"
+  },
+  {
+    "keys": ["alt+ё"],
+    "command": "toggle_side_bar"
+  },
+  {
+    "keys": ["alt+э"],
+    "command": "toggle_setting",
+    "args": {
+      "setting": "line_numbers"
+    }
+  },
+  {
+    "keys": ["alt+'"],
+    "command": "toggle_setting",
+    "args": {
+      "setting": "line_numbers"
+    }
+  },
+  {
+    "keys": ["alt+/"],
+    "command": "toggle_status_bar"
+  },
+  {
+    "keys": ["alt+."],
+    "command": "toggle_tabs"
+  },
+  {
+    "keys": ["alt+ю"],
+    "command": "toggle_tabs"
+  },
+  {
+    "keys": ["alt+;"],
+    "command": "toggle_minimap"
+  },
+  {
+    "keys": ["alt+ж"],
+    "command": "toggle_minimap"
+  },
+  {
+    "keys": ["super+shift+t"], "command": "open_recent_file", "args": {"index" : 0}
+  },
+  {
+    "keys": ["super+shift+е"], "command": "open_recent_file", "args": {"index" : 0}
+  },
+  {
+    "keys": ["super+shift+r"], "command": "open_terminal_project_folder"
+  },
+  {
+    "keys": ["super+shift+к"], "command": "open_terminal_project_folder"
+  },
+  {
+    "keys": [
+      "ctrl+alt+up"
+    ],
+    "args": {
+      "action": "increment_number_by_1"
+    },
+    "command": "run_emmet_action",
+    "context": [
+      {
+        "key": "emmet_action_enabled.increment_number_by_1"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "ctrl+alt+down"
+    ],
+    "args": {
+      "action": "decrement_number_by_1"
+    },
+    "command": "run_emmet_action",
+    "context": [
+      {
+        "key": "emmet_action_enabled.decrement_number_by_1"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "ctrl+shift+r"
+    ],
+    "command": "reveal_in_side_bar"
+  },
+  {
+    "keys": [
+      "ctrl+shift+к"
+    ],
+    "command": "reveal_in_side_bar"
+  },
+  {
+    "keys": [
+      "ctrl+shift+a"
+    ],
+    "command": "side_bar_move"
+  },
+  {
+    "keys": [
+      "ctrl+shift+ф"
+    ],
+    "command": "side_bar_move"
+  },
+  {
+    "keys": [
+      "ctrl+alt+a"
+    ],
+    "command": "side_bar_delete"
+  },
+  {
+    "keys": [
+      "ctrl+alt+ф"
+    ],
+    "command": "side_bar_delete"
+  },
+  {
+    "keys": [
+      "alt+d"
+    ],
+    "command": "goto_definition"
+  },
+  {
+    "keys": [
+      "alt+в"
+    ],
+    "command": "goto_definition"
+  },
+  {
+    "keys": [
+      "ctrl+shift+o"
+    ],
+    "command": "prompt_add_folder"
+  }
+]
