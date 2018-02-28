@@ -1,0 +1,13 @@
+{
+  "prettier_cli_path": "/Users/serhiipalash/.nvm/versions/node/v9.6.1/bin/prettier",
+  "node_path": "/Users/serhiipalash/.nvm/versions/node/v9.6.1/bin/node",
+  "auto_format_on_save": true,
+  "auto_format_on_save_excludes": ["*/node_modules/*", "*/.git/*"],
+  "semi": false,
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "parser": "babylon"
+}
