@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+componentWillReceiveProps(nextProps) {
+  if (this.props.${1:user} !== nextProps.${1:user}) {
+    ${2}
+  }
+}
+]]></content>
+  <tabTrigger>cwrp</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>componentWillReceiveProps method</description>
+</snippet>

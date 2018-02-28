@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+componentWillMount() {
+  ${1}
+}
+]]></content>
+  <tabTrigger>cwm</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>componentWillMount method</description>
+</snippet>

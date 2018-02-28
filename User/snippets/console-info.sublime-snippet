@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+console.info('${1:var}: ', ${1:var})
+]]></content>
+  <tabTrigger>ci</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>Console info</description>
+</snippet>

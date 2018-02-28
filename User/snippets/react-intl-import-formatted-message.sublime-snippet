@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+import { FormattedMessage } from '@/vendor/react-intl-native'
+import messages from './messages'
+
+]]></content>
+  <tabTrigger>rii</tabTrigger>
+  <description>React Intl import FormattedMessage</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+static contextTypes = {
+  intl: PropTypes.object.isRequired,
+}
+
+]]></content>
+  <tabTrigger>ric</tabTrigger>
+  <description>React Intl context types</description>
+</snippet>

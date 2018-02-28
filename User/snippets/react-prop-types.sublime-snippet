@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+static propTypes = {
+  ${1:navigation}: PropTypes.${2:object},
+}
+
+]]></content>
+  <tabTrigger>rpt</tabTrigger>
+  <description>React prop types</description>
+</snippet>

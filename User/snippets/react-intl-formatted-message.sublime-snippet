@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<FormattedMessage
+  {...messages.${1:title}}
+  style={styles.${1:title}}
+/>
+]]></content>
+  <tabTrigger>fm</tabTrigger>
+  <description>React Intl FormattedMessage</description>
+</snippet>

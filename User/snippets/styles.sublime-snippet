@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+import { StyleSheet, Dimensions } from 'react-native'
+
+const { width, height } = Dimensions.get('window')
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+})
+
+export default styles
+
+]]></content>
+  <tabTrigger>sts</tabTrigger>
+  <scope>source.js -(meta)</scope>
+  <description>React Native styles</description>
+</snippet>

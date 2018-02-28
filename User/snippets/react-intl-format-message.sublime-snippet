@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+formatMessage(messages.${1:title})
+]]></content>
+  <tabTrigger>rif</tabTrigger>
+  <description>React Intl formatMessage method</description>
+</snippet>

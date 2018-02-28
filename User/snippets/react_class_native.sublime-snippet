@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+/**
+ *
+ * ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}
+ *
+ */
+
+import React from 'react'
+import PropTypes from 'prop-types'
+
+import { View, Text, Image } from 'react-native'
+
+import styles from './styles'
+
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends React.Component {
+  static propTypes = {
+    prop: PropTypes.object,
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}</Text>
+      </View>
+    )
+  }
+}
+
+]]></content>
+  <tabTrigger>rcn</tabTrigger>
+  <scope>source.js -(meta)</scope>
+  <description>React Native: class component</description>
+</snippet>

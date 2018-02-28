@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+style={styles.${1:container}}
+]]></content>
+  <tabTrigger>st</tabTrigger>
+  <description>React Native inline style</description>
+</snippet>

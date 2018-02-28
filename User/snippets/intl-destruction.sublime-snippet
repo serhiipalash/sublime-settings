@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+const { ${1:formatMessage} } = this.context.intl
+
+]]></content>
+  <tabTrigger>rid</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>React Intl destruction</description>
+</snippet>

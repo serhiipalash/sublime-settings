@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+import { ${1:keys} } from '${2:lodash}'
+]]></content>
+  <tabTrigger>imp</tabTrigger>
+  <scope>source.js -(meta)</scope>
+  <description>import partial</description>
+</snippet>

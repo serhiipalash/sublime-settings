@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+import { defineMessages } from 'react-intl'
+
+export default defineMessages({
+  ${1:title}: '${2:text}',
+})
+
+]]></content>
+  <tabTrigger>rim</tabTrigger>
+  <description>React Intl messages</description>
+</snippet>
+
+

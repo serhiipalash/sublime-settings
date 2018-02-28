@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+try {
+  ${1:}
+} catch(err) {
+  console.log('err', err)
+}
+]]></content>
+  <tabTrigger>trc</tabTrigger>
+  <description>try-catch block</description>
+</snippet>

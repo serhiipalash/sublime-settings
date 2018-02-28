@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+const { ${1:user} } = this.props
+
+]]></content>
+  <tabTrigger>pd</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>React props destructions</description>
+</snippet>

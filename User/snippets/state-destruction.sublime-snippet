@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+const { ${1:value} } = this.state
+
+]]></content>
+  <tabTrigger>sd</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>React state destructions</description>
+</snippet>

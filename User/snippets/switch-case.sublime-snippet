@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+switch (${1:var}) {
+  case ${2:value}:
+    ${3:}
+
+  default:
+    ${4:}
+}
+]]></content>
+  <tabTrigger>swca</tabTrigger>
+  <!-- <scope>source.js -(meta)</scope> -->
+  <description>switch-case</description>
+</snippet>
