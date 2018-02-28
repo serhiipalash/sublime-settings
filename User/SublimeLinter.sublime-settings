@@ -1,0 +1,9 @@
+{
+    "user": {
+        "paths": {
+            "osx": [
+                "/Users/serhiipalash/.nvm/versions/node/v9.6.1/bin"
+            ],
+        },
+    }
+}
