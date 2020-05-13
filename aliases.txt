@@ -1,0 +1,26 @@
+alias n="npm run"
+alias a="npm run app:android"
+alias ios="npm run app"
+alias ab="npm run app:build"
+alias ni="npm install"
+alias nui="npm uninstall"
+alias nig="npm i -g"
+alias nii="cd packages/app && rm -rf node_modules && npm install && cd ../.."
+alias cdpa="cd packages/app"
+alias grs="git reset --soft HEAD^1"
+alias gp="npm list -g --depth=0"
+nit()
+{
+  git init
+  npx license $(npm get init.license) -o "$(npm get init.author.name)" > LICENSE
+  npx gitignore node
+  npx covgen "$(npm get init.author.email)"
+  npm init -y
+  git add -A
+  git commit -m "Initial commit"
+}
+alias ofd='open_command $PWD'
+alias gs="git stash"
+alias gsp="git stash pop"
+alias gmd="git merge develop"
+alias obp="open ~/.bash_profile"
